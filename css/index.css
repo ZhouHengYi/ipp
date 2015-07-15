@@ -1,0 +1,206 @@
+﻿html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+html body {
+  color: #000;
+  font-size: 14px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+html body #content {
+  height: 100%;
+}
+html body .heightFull {
+  height: 100%;
+}
+html body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html body ul li {
+  margin-bottom: 0 !important;
+}
+html body .clear {
+  clear: both;
+}
+html body .left {
+  float: left;
+}
+html body .right {
+  float: right;
+}
+html body a {
+  cursor: pointer;
+  font-family: "Microsoft YaHei";
+  outline: medium none !important;
+}
+html body .navbar-static-top {
+  margin-bottom: 0;
+}
+html body .navbar-header a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #7b8087;
+  font-size: 2 4px;
+  font-style: normal;
+  font-weight: 400;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+html body .content {
+  height: 100%;
+}
+html body .navbar-nav li {
+  margin-bottom: 0;
+}
+html body .navbar-nav li a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #7b8087;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 20px !important;
+  text-transform: uppercase;
+}
+html body .navbar-nav li a:hover {
+  color: #0f97f9;
+}
+html body .nav-list {
+  background-color: #1a2027;
+  overflow-y: auto;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  overflow-x: hidden;
+  position: fixed;
+  top: 71px;
+  width: 280px;
+  z-index: 100;
+  font-size: 16px;
+}
+html body .nav-list li {
+  background-color: #1a2027;
+}
+html body .nav-list li a {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 #28323f;
+  color: #fff;
+  background: none !important;
+  padding: 10px 15px 10px 45px;
+}
+html body .nav-list li a:focus {
+  background: none !important;
+}
+html body .nav-list li a:hover {
+  background: none !important;
+}
+html body .nav-list li a i {
+  margin-right: 10px;
+  text-align: center;
+  width: 20px;
+  line-height: 1;
+  text-transform: none;
+}
+html body .nav-list li:hover {
+  background-color: #324053;
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+}
+html body .nav-list li:hover .navDeatil {
+  display: block;
+}
+html body .nav-list li .navDeatil {
+  background-color: #324053;
+  display: none;
+}
+html body .nav-list li .navDeatil li {
+  background-color: #324053;
+}
+html body .nav-list li .navDeatil li a {
+  border: medium none;
+}
+html body .nav-list li .navDeatil li:hover {
+  background-color: #324553;
+}
+html body .mainContent {
+  padding-left: 280px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+html body .secondPart {
+  padding: 0 30px;
+}
+html body .jumbotron {
+  padding: 30px;
+  background: #045e9e linear-gradient(169deg, #045e9e 40%, #73c2fb 100%) repeat scroll 0 0;
+  color: #fff;
+}
+html body .table td {
+  color: #63676c;
+  font-size: 15px;
+  padding: 15px;
+  vertical-align: middle;
+}
+html body .table th {
+  vertical-align: middle;
+}
+html body .table th label {
+  width: 100%;
+}
+html body .table th label:hover {
+  cursor: pointer;
+}
+html body .table th label .icheckbox_square-grey {
+  margin-right: 10px;
+}
+html body .list-group {
+  width: 400px;
+}
+html body .list-group:first-child {
+  border: 1px solid !important;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+}
+html body .panelItemDv {
+  padding-bottom: 100px;
+}
+html body .panelItemDv .panel-default {
+  width: 350px;
+  display: inline-block;
+  margin-right: 40px;
+}
+html body .panelItemDv .list-group {
+  width: 350px;
+  display: inline-block;
+}
+.button-primary-action {
+  text-decoration: none !important;
+}
+.button-primary-action:hover {
+  text-decoration: none !important;
+}
+#formDv input[type=text],
+#formDv input[type=password],
+#formDv .add-on {
+  height: 30px !important;
+}
+#radioscheckboxes {
+  height: auto;
+}
+/*# sourceMappingURL=index.css.map */
