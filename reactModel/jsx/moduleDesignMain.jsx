@@ -1,9 +1,9 @@
-﻿var React = require('react');
+var React = require('react');
 
 var TopMenu = require('./topMenu.jsx')
 var LeftMenu = require('./leftMenu.jsx')
 var BlueContent = require('./blueContent.jsx')
-var IndexContent = require('./indexContent.jsx')
+var FormContent = require('./formContent.jsx')
 
 //首页
 var Index = React.createClass({
@@ -15,7 +15,7 @@ var Index = React.createClass({
                         <LeftMenu />
                         <div className="mainContent">
                             <BlueContent />
-                            <IndexContent />
+                            <FormContent />
                         </div>
                     </div>
                 </div>

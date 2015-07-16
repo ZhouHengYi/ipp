@@ -6,7 +6,7 @@ var BlueContent = require('./blueContent.jsx')
 var IndexContent = require('./indexContent.jsx')
 
 //首页
-var Index = React.createClass({
+var ModuleDesignMain = React.createClass({
     render:function() {
         return(
                 <div className="heightFull">
@@ -23,4 +23,4 @@ var Index = React.createClass({
     }
 });
 
-module.exports = Index;
+module.exports = ModuleDesignMain;

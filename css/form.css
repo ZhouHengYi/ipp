@@ -1,0 +1,21 @@
+﻿body .nav-list {
+  padding: 0 !important;
+}
+body .span6 {
+  width: 560px;
+  float: left;
+  margin-left: 30px;
+  min-height: 1px;
+}
+body .navbar-nav li a:hover {
+  color: #0f97f9 !important;
+  background-color: #eee !important;
+}
+#formContent {
+  height: 100% !important;
+}
+#formDv {
+  margin-left: 150px;
+  width: 100%;
+}
+/*# sourceMappingURL=form.css.map */

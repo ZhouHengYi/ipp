@@ -6,12 +6,12 @@ var TopMenu = React.createClass({
                 <header role="banner" id="top" className="navbar navbar-static-top bs-docs-nav">
                     <div className="container">
                         <div className="navbar-header">
-                            <a className="navbar-brand" href="">后台模板</a>
+                            <a className="navbar-brand" href="default.html">后台模板</a>
                         </div>
                         <nav className="collapse navbar-collapse" id="bs-navbar">
                             <ul className="nav navbar-nav">
                                 <li>
-                                    <a href="">RRliuXue</a>
+                                    <a href="default.html">RRliuXue</a>
                                 </li>
                                 <li>
                                     <a href="">ComeFromEast</a>
@@ -21,6 +21,9 @@ var TopMenu = React.createClass({
                                 </li>
                                 <li>
                                     <a href="">WilliamProject</a>
+                                </li>
+                                <li>
+                                    <a href="moduleDesign.html">模块设计</a>
                                 </li>
                             </ul>
                             <ul className="nav navbar-nav navbar-right">

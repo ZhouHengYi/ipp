@@ -5,8 +5,7 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://127.0.0.1:3000', // WebpackDevServer host and port
     'webpack/hot/only-dev-server',
-    './reactModel/index.js',
-    './reactModel/jsx/formMain.jsx'
+    './reactModel/index.js'
   ],
   output: {
     path: __dirname + '/bundle/',
